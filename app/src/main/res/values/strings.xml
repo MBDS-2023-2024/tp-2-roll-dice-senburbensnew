@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Dice Roller</string>
     <string name="roll">Roll</string>
+    <string name="guess_number">guess number</string>
+    <string name="enter_your_guess">Enter your guess:</string>
+    <string name="dice1">dice1</string>
+    <string name="dice2">dice2</string>
 </resources>

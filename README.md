@@ -16,7 +16,7 @@ Maintenant, vous allez modifier l'application pour la rendre un peu plus cool, e
 Nous allons encore rendre l'application plus interessant en permettant à l'utilisateur de définir un nombre à trouver en lancant les dés. Ainsi, lorsque les dés sont lancés si la somme est égale à la valeur choisie, l'utilisateur gagne sinon il perd. 
 
 1. Ajoutez une entrée permettant à l'utilisateur de définir le nombre à trouver, vous pouvez utiliser un champ de text, un radiogroup, un spinner, un slider ou n'importe quelle widget qui permet de définir un entrée. 
-2. Une fois, le nombre choisie activer le bouton de lancé de dés 
+2. Une fois, le nombre choisie activer le bouton de lancé de dés
 3. L'utilisateur gagne si la somme des nombres est égale au nombre choisi par l'utilisateur. 
 
 # Bonus 
