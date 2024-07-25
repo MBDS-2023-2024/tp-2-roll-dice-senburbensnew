@@ -3,6 +3,7 @@ package com.example.diceroller
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 /**
@@ -33,6 +34,10 @@ class MainActivity : AppCompatActivity() {
         val resultTextView2: TextView = findViewById(R.id.textView2)
         resultTextView1.text = diceRoll1.toString()
         resultTextView2.text = diceRoll2.toString()
+
+        if (diceRoll1 == diceRoll2) {
+            Toast.makeText(this, "Félicitations ! Vous avez gagné !", Toast.LENGTH_SHORT).show()
+        }
     }
 
     class Dice(private val numSides: Int) {
